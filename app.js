@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
             token = data.token;
             alert("Login realizado");
 
-            console.log("ultimo token: " + token)
+            console.log('Ultimo token:', { token });
 
             fetchCidades();
         } catch (error) {
